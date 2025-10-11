@@ -22,7 +22,7 @@ public class TC012_NearMePage {
         @Parameters({ "os", "browser" })
         public void setup(String os, String br) throws IOException {
             FileReader file = new FileReader(
-                    "C:\\Users\\DELL\\.vscode\\hometriangle\\hometriangle\\src\\test\\resouces\\config.properties");
+                    "C:\\Users\\Mrutunjay\\Desktop\\Hometriangle-Maste\\src\\test\\resources\\config.properties");
             p = new Properties();
             p.load(file);
             if (p.getProperty("execution_env").equalsIgnoreCase("local")) {

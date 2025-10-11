@@ -46,7 +46,7 @@ public class BaseClass {
 
 		// Loading config.properties file
 		FileReader file = new FileReader(
-				"C:\\Users\\DELL\\.vscode\\hometriangle\\hometriangle\\src\\test\\resouces\\config.properties");
+                    "C:\\Users\\Mrutunjay\\Desktop\\Hometriangle-Maste\\src\\test\\resources\\config.properties");
 		p = new Properties();
 		p.load(file);
 
